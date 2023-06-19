@@ -2,7 +2,6 @@ package ch01;
 
 public class Test01 extends Object{
 	public static void main(String args[]){
-		//test
 		System.out.println("2023³â 05¿ù 12ÀÏ ÀÌ»ó¿±");
 		System.out.println("¿À´Ã ¼÷Á¦");
 		System.out.println(" java ¼³Ä¡");
