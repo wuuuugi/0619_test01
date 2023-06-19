@@ -2,7 +2,7 @@ package ch01;
 
 public class Test01 extends Object{
 	public static void main(String args[]){
-		System.out.println("2023년 05월 12일 이상엽");
+		System.out.println("2023년 05월 12일 이상엽ㅎㅎㅎㅎ");
 		System.out.println("오늘 숙제");
 		System.out.println(" java 설치");
 		System.out.println("환경변수");
