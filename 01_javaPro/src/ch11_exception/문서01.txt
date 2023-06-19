@@ -1,0 +1,70 @@
+Exception(예외)란?
+
+프로그램을 실행하는 동안 예기치 않은 이상 상태(예외상황)가 발생하는 것을 말한다 
+에러란 ? 프로그램 언어의 문법적인 오류를 말한다 
+
+예외는 프로그램이 실행되는 동안 문제가 발생했을 때 대처할 수 있게 처리하는 것이다. 
+
+예외클래스 계층 구조 
+
+Throwable
+         ∧
+Exception 
+         ∧
+  [Compile Exception] :고칠수 없는 에러 
+         
+ IOException
+ FileNotFoundException
+ ClassNotFoundException  :DB작업할 때 필수사용
+ 
+ ArrayIndexOutOfBoundsException  : 배열 예외 발생 
+ NumberFormatException 			:숫자가 아닐때 예외발생
+ ArithmeticException		:연산예외  3/0 
+ 
+ ==========================================================
+ ※예외 처리 2가지 방법 
+1. 방법 : 직접처리 
+try {
+ 	처리문;
+ 	처리문;
+ 	처리문;
+ }catch(예외 종류1){
+ 	//처리: 메시지출력 
+ }catch(예외 종류2){
+ 	//처리 : 메시지 출력
+ }catch(예외 종류3){
+ 	//처리 : 메시지 출력
+ }finally{
+  처리내용;   //dbCon.close();
+ }
+ 
+ ※finally 절은 예외 발생과 상관없이 실행된다 
+   심지어 앞에 return 문이 있어도 finally 절은 수행한다 
+   하지만 앞에 System.exit(0) 구문이 있으면 finally 절은 실행 안한다 
+   
+ 2. 방법2 : 간접 처리 
+  public 리턴형 메서드() throws 예외 종류 {
+  	처리문;
+  	처리문;
+  	처리문;
+  }
+ 
+ ※메서드 내용을 처리 하는 동안 예외가 발생하면 메서드를 호출한 그곳으로 제어권을 넘긴다 
+ ex: public static void main (String args[]) throws Exception{
+ 			처리문;
+ 			처리문;
+ 			//처리중 예외가 발생하면 JVM에게 제어권이 넘어간다  
+ 	 }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

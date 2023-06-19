@@ -1,0 +1,18 @@
+indexOf(int ch) : ch문자 위치를 반환한다
+ : 현재 문자열 객체에서 ch 문자가 첫번째로 발견된 위치를 반환한다.
+ ex:  
+ String str="banana";
+ int idx=str.indexOf('a');  //1    아스키코드/유니코드  
+ 
+ indexOf(String str): str문자열 위치를 반환한다 
+ :현재 문자열 객체에서 str문자열이 발견되면 str의 첫번째 위치를 반환하고
+     없으면 -1을 반환한다 
+ ex:
+ String s = "총비용은 $45.67";
+ int idx2=s.indexOf("$45.67");
+ System.out.println(idx2); //5
+ System.out.println(s.substring(5)); //$45.67  
+ 
+ 
+ 문자열을 숫자로 변환 
+ int num = Integer.parseInt(no);

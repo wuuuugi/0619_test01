@@ -1,0 +1,36 @@
+	연산자
+	==연산자 (기본자료형 비교)
+	equals()메서드 : 문자열 비교 할때 사용 (대소문자 구분하여 비교)
+	equalsIgnoreCase(): 문자열 비교 (대소문자 구분않고 비교) 
+	
+	ex) yes YES Yes
+	
+	객체비교 연산자 : instanceof 
+	
+	형식
+	객체 instanceof 클래스
+	왼쪽 instanceof 오른쪽
+	
+	ex) 
+	String str = new String ("hello");
+	Object ob = new Object();
+	
+	if(str instanceof String){처리}
+	if(ob instanceof Object){}
+	
+	if(str instanceof Object){}
+	   객체     instanceof  상위클래스 
+	   
+	if(ob instanceof String){}
+	   		false
+	   	
+	왼쪽 객체보다 오른쪽 클래스가 같거나 상위이면 : true 
+	Object는 java의 최상위 클래스 이다 
+	클래스를 만들때 상속을 받지 않아도 내부적으로 Object가 상속받아진다 
+	
+	class Test01 extends Object{
+	}
+	
+	
+	  
+	

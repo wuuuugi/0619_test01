@@ -1,0 +1,27 @@
+클래스 상속, 인터페이스 상속
+class 파생클래스 extends 수퍼클래스  implements 인터페이스 , 인터페이스,인터페이스{
+	//변수 =필드
+	
+	//생성자
+	
+	//메서드
+	
+}
+1. 클래스는 다중 상속 안된다 
+2. 인터페이스는 다중 상속 가능 
+
+3. 클래스 extends 클래스 
+4. 인터페이스 extends 인터페이스
+5. 클래스 implements 인터페이스 
+
+6. 상위 클래스 변수로 하위객체 처리 , 자동 형변환과 유사하다 
+    cf)
+    List list = new ArrayList();
+    Map map= new HashMap();
+
+
+
+
+
+
+ 

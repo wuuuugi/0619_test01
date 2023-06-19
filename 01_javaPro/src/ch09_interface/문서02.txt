@@ -1,0 +1,22 @@
+interface 형식 
+
+interface 인터페이스 이름{
+	//변수
+	//static final 변수
+	public void aa();  //추상 메서드
+}
+
+class 클래스 이름 implements 인터페이스이름{
+	//오버라이딩 
+	public void aa(){내용;}
+}
+
+실습 ===================
+interface Board{
+	추상메서드
+}
+
+class BoardImpl implements Board{
+ 	//오버라이딩
+}
+====================

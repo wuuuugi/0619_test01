@@ -1,0 +1,6 @@
+기본자료형 : byte < short < int < long < float < double
+래퍼런스 자료형: 클래스 (string) , 배열 , 인터페이스 
+
+배열(array)이란?  
+-동질 자료형의 기억장소 집합체이다 
+		

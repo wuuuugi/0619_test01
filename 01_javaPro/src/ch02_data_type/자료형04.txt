@@ -1,0 +1,11 @@
+자료형 변수=상수(데이터,값)
+
+int a=100;
+const int MAX=100; //변수를 상수화(c언어)
+final int MAX=100;  //변수를 상수화(java언어)
+
+const int MAX=100; //상수 ( javaScript )
+MAX=200;//에러 값변경 못함 
+
+let a=100;
+let b="박문수"; //값=데이터

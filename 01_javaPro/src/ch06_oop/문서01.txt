@@ -1,0 +1,23 @@
+oop(Object Oriented Programming)
+	객체 		지향 		프로그래밍
+
+자바 최상위 클래스 : Object 이다 
+클래스=단위프로그램=모듈=캡슐화
+class Test{
+	변수
+	매서드(){처리내용;}
+}
+
+메서드
+getXxx()
+setXxx(String name)
+setEditable(false)
+
+- 클래스 만드는 것을 :자료설계 (Test01.java) : 래퍼런스 자료형
+- 클래스 : 컴포넌트라고 한다 (Test01.class) awt : Button , TextField, TextArea
+- 클래스 = 레퍼런스 자료형
+- 클래스 = 레퍼런스 변수 = 인스턴스 = 객체 
+Test01 test01 = new Test01();
+
+매서드는 처리의 기본단위 이다 (매서드 단위로 처리한다)
+

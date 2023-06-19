@@ -1,0 +1,19 @@
+throw 와  throws
+
+throws : 예외가 발생 했을 때, 메서드를 호출 한 그 곳으로 제어권을 넘긴다. 
+throw new MyException() :  예외 생성
+==============================================================
+class ExceptionTest{
+  if(MyException 발생 조건){
+     throw new MyException ("에러 메시지");
+  }
+}
+==============================================================
+class MyException extends Exception{
+	//생성자
+	public MyException(String msg){
+		super(msg);
+	}
+}
+==============================================================
+

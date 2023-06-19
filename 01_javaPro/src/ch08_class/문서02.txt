@@ -1,0 +1,11 @@
+String class 
+- substring(int beginIndex)
+ :현재문자열 객체에서 beginIndex 위치부터 끝까지 문자열을 발췌한다. 
+ 
+ -substring ( int beginIndex,int endIndex)
+ : beginIndex 위치 부터 endIndex 직전까지 문자열 발췌
+ ex:
+  String s = "Good Morning hong-gil-dong ";
+  //          01234567890123456789012345
+  String s2 = s.substring(18); //gil-dong
+  String s3 = s.substring(5,12); // Morning 
