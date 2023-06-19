@@ -9,6 +9,7 @@ public class Git_test {
 		for (nnan = 2; nnan < 10; nnan++)
 			for (ndan = 1; ndan < 10; ndan++) {
 				System.out.println(nnan + " * " + ndan + " = " + nnan * ndan);
+			
 		}
 
 	}
