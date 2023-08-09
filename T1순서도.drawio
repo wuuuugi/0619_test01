@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T03:08:32.356Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Whale/3.21.192.18 Safari/537.36" etag="KU0WgETnC8qdYIKOVaL9" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-09T03:24:04.781Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Whale/3.21.192.18 Safari/537.36" etag="Nx1NhL98iRIc6GURaFqN" version="21.6.7" type="github">
   <diagram name="페이지-1" id="7c_d_tjCZMxHoC3NEscL">
     <mxGraphModel dx="1930" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -590,7 +590,7 @@
           <mxGeometry y="90" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yKfbDQdA6xNLsTardX86-282" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="100" width="120" height="120" as="geometry" />
+          <mxGeometry x="1270" y="80" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="yKfbDQdA6xNLsTardX86-283" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" vertex="1" parent="yKfbDQdA6xNLsTardX86-282">
           <mxGeometry width="120" height="40" as="geometry" />
@@ -761,7 +761,7 @@
           <mxGeometry y="80" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yKfbDQdA6xNLsTardX86-380" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="270" width="160" height="118" as="geometry" />
+          <mxGeometry x="1360" y="260" width="160" height="118" as="geometry" />
         </mxCell>
         <mxCell id="yKfbDQdA6xNLsTardX86-381" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=10;" vertex="1" parent="yKfbDQdA6xNLsTardX86-380">
           <mxGeometry width="160" height="40" as="geometry" />
@@ -827,6 +827,45 @@
           <mxGeometry y="80" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yKfbDQdA6xNLsTardX86-400" value="페이징 ?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKfbDQdA6xNLsTardX86-397">
+          <mxGeometry y="140" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yKfbDQdA6xNLsTardX86-401" value="회원관리" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="135" width="150" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="yKfbDQdA6xNLsTardX86-402" value="회원 정지, 캐쉬에 대하여 관리&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKfbDQdA6xNLsTardX86-401">
+          <mxGeometry y="30" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yKfbDQdA6xNLsTardX86-403" value="회원 정보 수정도 가능" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKfbDQdA6xNLsTardX86-401">
+          <mxGeometry y="80" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKfbDQdA6xNLsTardX86-404" value="페이징 ?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKfbDQdA6xNLsTardX86-401">
+          <mxGeometry y="140" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yKfbDQdA6xNLsTardX86-405" value="물품관리" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="234" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yKfbDQdA6xNLsTardX86-406" value="물건 등록 및 삭제&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKfbDQdA6xNLsTardX86-405">
+          <mxGeometry y="30" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yKfbDQdA6xNLsTardX86-407" value="판매자가 등록한 물품 승인&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKfbDQdA6xNLsTardX86-405">
+          <mxGeometry y="80" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKfbDQdA6xNLsTardX86-409" value="결제관리&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="395" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yKfbDQdA6xNLsTardX86-411" value="판매자가 등록한 물품 승인&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKfbDQdA6xNLsTardX86-409">
+          <mxGeometry y="30" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKfbDQdA6xNLsTardX86-412" value="배송관리" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="355" width="150" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="yKfbDQdA6xNLsTardX86-413" value="회원 정지, 캐쉬에 대하여 관리&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKfbDQdA6xNLsTardX86-412">
+          <mxGeometry y="30" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yKfbDQdA6xNLsTardX86-414" value="회원 정보 수정도 가능" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKfbDQdA6xNLsTardX86-412">
+          <mxGeometry y="80" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yKfbDQdA6xNLsTardX86-415" value="페이징 ?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="yKfbDQdA6xNLsTardX86-412">
           <mxGeometry y="140" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
